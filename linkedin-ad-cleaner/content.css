@@ -1,0 +1,12 @@
+/* Fixed ad containers that can be hidden with CSS alone.
+   Edit this list if LinkedIn renames them. */
+.ad-banner-container,
+.ad-banner,
+[data-ad-banner] {
+  display: none !important;
+}
+
+/* Class added by content.js to any element it identifies as an ad. */
+.li-ad-cleaner-hidden {
+  display: none !important;
+}
